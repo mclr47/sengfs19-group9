@@ -1,0 +1,134 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 23px;
+    text-decoration: none;
+    font-size: 17.15px;
+    font-family: 'Lora', serif;
+}
+
+li a:hover {
+    background-color: palevioletred;
+    opacity: 50%;
+}
+            
+.active {
+    background-color: cadetblue;
+    color: white;
+    font-weight: bold;
+}
+
+#profileBody {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-size: 1920px 1080px;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+#mainWrapper {
+    width: 1500px;
+    height: 800px;
+    padding: 10px;
+    margin: 20px auto;
+    overflow: auto;
+    border: 5px outset blue;
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.2), 0 10px 24px 0 rgba(0, 0, 0, 0.19);
+}
+
+#innerWrapper {
+    height: 700px;
+    width: 1450px;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+#chartWrapper {
+    height: 670px;
+    width: 820px;
+    float: left;
+    padding: 8px;
+    overflow: auto;
+    margin: 8px;
+    text-align: center;
+}
+
+#secondaryWrapper {
+    height: 670px;
+    width: 520px;
+    float: right;
+    padding: 8px;
+    margin: 8px;
+}
+
+#logoWrapper {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.repoLogo {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+
+#otherFunctionWrapper {
+    height: 285px;
+    width: 500px;
+    padding: 5px;
+    margin: 5px;
+    padding-bottom: 1px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+    transition: box-shadow .3s;
+}
+
+#pageTitle {
+    color: white; 
+    font-family: 'Lora', serif; 
+    text-shadow: #222222 1px 1px,#222222 0px 0px,#222222 1px 1px,#222222 2px 2px,#222222 3px 3px,#222222 4px 4px,#222222 5px 5px,#222222 6px 6px,#222222 7px 7px,#222222 8px 8px,#222222 9px 9px,#222222 10px 10px,#222222 11px 11px,#222222 12px 12px,#222222 13px 13px,#222222 14px 14px,#222222 15px 15px,#222222 16px 16px,#222222 17px 17px,#222222 18px 18px,#222222 19px 19px,#222222 20px 20px;
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 45px;
+    padding-top: 50px;
+}
+
+.row {
+    margin: 0 auto;
+    margin-left: 120px;
+}
+
+.col-sm-9 {
+    margin: 0 auto;
+}
+
+#sectionBody {
+    margin: 0 auto;
+}
+
+#sectionBody2 {
+    margin: 0 auto;
+}
