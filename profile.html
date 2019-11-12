@@ -10,7 +10,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
         <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+        <script src="sprint2/repogroup.js"></script>
     </head>
     <style>
         h1{
@@ -25,7 +27,7 @@
             border-color: black;
         }
     </style>
-    <body>
+    <body onload="getRepoGroupInfo()">
        
 <nav class="navbar navbar-default">
     <div class="container-fluid" id="container">
@@ -71,5 +73,15 @@
               { path: '', redirectTo: '/home', pathMatch: 'full' }
             ];
         </script>
+        
+        <div class="row">
+            <div class="col-sm-9" id="sectionBody"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="sectionBody2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="sectionBody2"></div>
+        </div>
     </body>
 </html>
