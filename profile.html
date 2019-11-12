@@ -11,19 +11,34 @@
 
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> 
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     </head>
     <style>
         h1{
-            padding-left: 50px;
+            padding-left: 150px;
         }
         #container{
             background-color: black;
+            width: 850px;
+            height: 50px;
+            padding-left: 25px;
+            padding-right: 25px;
         }
         .btn{
             background-color: darkgrey;
             color: floralwhite;
             border-color: black;
+            width: 150px;
+            height: 25px;
+/*
+            padding-left: 25px;
+            padding-right: 25px;
+*/
+            align-content: center;
+            font-size: 15px;
         }
+
     </style>
     <body>
        
@@ -39,7 +54,7 @@
                     <a class="btn btn-default"  href="#about">About</a>
                     <a class="btn btn-default"  href="#contact">Contact</a>
                     <a class="btn btn-default"  href="#profile">Profile</a>
-                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Settings<span class="caret"></span></a>
+                    <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Settings</a>
                   <ul class="dropdown-menu">
                     <li><a href="#sort">Sort Data</a></li>
                     <li><a href="#logout">Logout</a></li>
@@ -54,22 +69,5 @@
         
         <h1>Welcome User!</h1>
         
-        <script>
-//            functions in javascript
-//            routing
-            
-            import { HomeComponent } from './home/home.component';
-            import { AboutComponent } from './about/about.component';
-            import { PrivacyComponent } from './privacy/privacy.component';
-            import { TermsComponent } from './terms/terms.component';
-            
-            const routes: Routes = [
-              { path: 'home', component: HomeComponent },
-              { path: 'about', component: AboutComponent },
-              { path: 'contact', component: ContactComponent },
-              { path: 'profile', component: ProfileComponent },
-              { path: '', redirectTo: '/home', pathMatch: 'full' }
-            ];
-        </script>
     </body>
 </html>
