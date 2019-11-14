@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>       
-      <title>Login</title> 
+      <title>Augur: Login</title> 
         <meta charset="utf-8">
           <link href="https://fonts.googleapis.com/css?family=Lora|Encode+Sans+Condensed" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -40,7 +40,7 @@
             </ul>
         </div>
         
-        <h1 id="pageTitle">Augur Login Page</h1> 
+        <h1 id="pageTitle">Augur - Login Page</h1> 
         
         <!-- Main Wrapper -->
         <div id = "mainWrapper"> 

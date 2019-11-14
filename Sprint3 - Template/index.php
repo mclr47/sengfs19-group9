@@ -6,7 +6,7 @@
 -->
 <html lang="en">
     <head>       
-      <title>Home</title> 
+      <title>Augur: Home</title> 
         <meta charset="utf-8">
           <link href="https://fonts.googleapis.com/css?family=Lora|Encode+Sans+Condensed" rel="stylesheet">
             <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -45,7 +45,7 @@
             </ul>
         </div>
         
-        <h1 id="pageTitle">Home</h1> 
+        <h1 id="pageTitle">Augur - Home</h1> 
         
         <!-- Main Wrapper -->
         <div id = "mainWrapper"> 
@@ -55,9 +55,10 @@
                 <div id="textWrapper">
                 <h3 id="welcomeLine">Welcome To Augur! If You Are A Repo Group Owner, Feel Free To Login.</h3>
                 <p class="wikiEntry" id="openingParagraph">Augur is a Python library and web service of Open Source Software Health and Sustainability metrics and data collection. Augur can be directly accessed at http://augur.osshealth.io/.</p>
+                <p>Add the top monthly stats data below</p>
                 </div>
                 <div id="secondaryWrapper">
-                   <div id="otherFunctionWrapper"><iframe width="500" height="282" src="https://www.youtube.com/embed/bqoTwf5Pds0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                   <div id="otherFunctionWrapper"><iframe width="500" height="282" src="https://www.youtube.com/embed/bqoTwf5Pds0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="albumCover"></iframe></div>
                    <div id="logoWrapper"><a href="logIn.php"><img src="augurLogo.png" alt="Augur Logo" class="albumCover"></a>
                    <p id="clickNotify">Click the logo to be taken to the login page!</p>
                    </div>

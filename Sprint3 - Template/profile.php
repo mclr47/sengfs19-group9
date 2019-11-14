@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Profile: GraphQL</title>
+        <title>Augur: GraphQL - Profile</title>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Lora|Encode+Sans+Condensed" rel="stylesheet">
        <!-- Latest compiled and minified CSS -->
@@ -39,7 +39,7 @@
             </ul>
         </div>
         
-        <h1 id="pageTitle">Welcome: GraphQL Repo Group!</h1>
+        <h1 id="pageTitle">Welcome GraphQL Repo Group!</h1>
         
         <script>
 //            functions in javascript
@@ -73,7 +73,7 @@
                     </div>
                 </div>
                 <div id="secondaryWrapper">
-                   <div id="otherFunctionProfileWrapper"><p>Hi</p></div>
+                   <div id="otherFunctionProfileWrapper"><p>Add our other profile page functionality here.</p></div>
                    <div id="profileLogoWrapper"><img src="graphLogo.png" alt="GraphQL Logo" class="albumCover"></div>
                 </div>
             </div>
