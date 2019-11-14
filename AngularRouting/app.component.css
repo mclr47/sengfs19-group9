@@ -1,0 +1,11 @@
+h1{
+    padding-left: 50px;
+}
+#container{
+    background-color: black;
+}
+.btn{
+    background-color: darkgrey;
+    color: floralwhite;
+    border-color: black;
+}
