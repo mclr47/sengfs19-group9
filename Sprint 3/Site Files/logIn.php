@@ -15,9 +15,9 @@
         <!-- Latest compiled JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
-        <script src="repogroup.js"></script>
+        <script src="loginGraph.js"></script>
     </head>
-    <body id="logInBody"> 
+    <body id="logInBody" onload="getRepoGroupInfo()"> 
         <div class="navbar">
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
@@ -71,7 +71,17 @@
                 <h3 id="submitInfo">While you are logged in, you can access your info and view your stats.</h3>
                 <h4>Logging in is only available for Repo Group Owners!</h4>
 <!--                <img src="noelHype.gif" alt="Liam Logo Gif" id="loginGif">-->
-                    <div id= "loginGif"><p>Put the rotating repo group stats here.</p></div>
+                    <div id= "loginGif"> <div class="row">
+                <nav class="col-sm-3" id="myScrollspy">
+                    <ul class="nav nav-pills nav-stacked" id="sectionList">
+                    </ul>
+                </nav>
+                <div class="col-sm-9" id="sectionBody">
+            </div>
+        </div>
+        <div id="graph">
+            <canvas id="canvas"></canvas>
+        </div></div>
                 </div>
                 <div id="imagesWrapper">
                    <div id="logInDemoWrapper"><img src="logInDemo.jpg" alt="Successful Log-In">
