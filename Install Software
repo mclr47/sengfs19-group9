@@ -1,0 +1,25 @@
+Install pip
+Pip (Python Package Installer), official documentation for pip.
+
+Usually Python3 comes with pip preinstalled. If you get an error "pip command not found", use the following command to install pip:
+
+sudo easy_install pip
+Install virtualenv
+virtualenv is a tool to create isolated Python projects. Think of it, as a cleanroom, isolated from other virsions of Python and libriries.
+
+Enter this command into terminal
+
+sudo pip install virtualenv
+or if you get an error
+
+sudo -H pip install virtualenv
+Start virtualenv
+Navigate to where you want to store your code. Create new directory.
+
+mkdir my_project && cd my_project
+INSIDE my_project folder create a new virtualenv
+
+virtualenv env
+Activate virtualenv
+
+source env/bin/activate
